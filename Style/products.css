@@ -1,0 +1,637 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+
+
+
+html,body, main, header,section, div
+{
+    height: 80%;
+    width: auto;
+    scroll-behavior: smooth;
+}
+
+.main-nav
+{
+    background-color: #d00000;
+    height: 50%;
+    text-align: center;
+    justify-content: center;
+}
+.main-nav .div1
+{
+   display: inline-flex;
+   background-color: #f48c06;
+   gap: 3em;
+   height: 100%;
+      
+}
+.main-nav .div1 a
+{
+    font-size:xx-large;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+header
+{
+    height: 20%;
+}
+header h1
+{
+    color: white;
+    background-color:#f48c06;
+    font-family: 'Roboto Slab', serif;
+    font-size:5em;
+    text-align: center;
+    justify-content: center;
+}
+.sec1
+{
+    height: 55em;
+    width: auto;
+    font-size: 20pt;
+    
+}
+.sec1 .div01
+{
+    float: right;
+}
+.sec1 h3
+{
+    font-family: 'Roboto Slab', serif;
+    font-size:5em;
+    text-align: center;
+    justify-content: center;
+}
+.div01
+{
+    
+    height: 42%;
+    width: 12%;
+    background-image: url(../Photos/milk-dairy-products.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.sec2
+{
+    height: 100%;
+    width: auto;
+    font-size: 20pt;
+    /* background-color: #f9c74f; */
+}
+
+.sec2 .main-fig
+{
+    
+    height: 42%;
+    width: 12%;
+    background-image: url(../Photos/chocolate_hero1-.jpg);
+    background-size: cover;
+    background-position: center;
+    float: right;
+}
+.sec2 h3
+{
+    font-family: 'Roboto Slab', serif;
+    font-size:5em;
+    text-align: center;
+    justify-content: center;
+}
+.sec3 h3
+{
+    font-family: 'Roboto Slab', serif;
+    font-size:5em;
+    text-align: center;
+    justify-content: center;
+}
+.sec4 h3
+{
+    font-family: 'Roboto Slab', serif;
+    font-size:5em;
+    text-align: center;
+    justify-content: center;
+}
+.sec3
+{
+    height: 70%;
+    width: auto;
+    font-size: 20pt;
+}
+.sec3 .div3
+{
+    float: right;
+}
+.div3
+{
+    
+    height: 42%;
+    width: 12%;
+    background-image: url(../Photos/Cookies.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.sec4
+{
+    height: 100%;
+    width: auto;
+    font-size: 20pt;
+}
+.sec4 
+{
+    justify-content: center;
+    background-color: #ff7f51;
+}
+.div4
+{
+    
+    height: 42%;
+    width: 12%;
+    background-image: url(../Photos/food-products.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.sec1 .sec-1-main-div
+{
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    gap: 1.5em;
+   
+}
+
+.sec-1-main-div
+{
+    margin-top: 3em;
+    margin-left: 2em;
+}
+.d1 .fig-div-1
+{
+    height: 5em;
+    width: auto;
+    background-image: url(../Photos/amul-butter-100-g-.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0.5em;
+}
+.d1 .fig-div-2
+{
+    height: 7em;
+    width: auto;
+    background-image: url(../Photos/big-butter.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 0.5em;
+    
+}
+
+.d4 .fig-div-3
+{
+    height: 10em;
+    width: auto;
+    background-image: url(../Photos/Amul-Cow-Ghee-500ml.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+.d1 .dvv-1
+{
+    height: 10em;
+    box-shadow: 2px 2px 5px rgb(210, 210, 210);
+}
+.d1 .d2
+{
+    height: 10em;
+   margin-top: 10em;
+   box-shadow: 2px 2px 5px rgb(210, 210, 210);
+}
+.d4 .d3
+{
+    height: 10em;
+    box-shadow: 2px 2px 5px rgb(210, 210, 210);
+}
+.d4 .dvv-4
+{
+    height: 14em;
+    box-shadow: 2px 2px 5px rgb(210, 210, 210);
+    margin-bottom: 10em;
+}
+.d4 .div0-3
+{
+    height: 17em;
+    box-shadow: 2px 2px 5px rgb(210, 210, 210);
+    
+}
+.d6 .dvv-6
+{ 
+    height: 17em;
+    width: 15em;
+    box-shadow: 2px 2px 5px rgb(210, 210, 210);
+    margin-bottom: 8em;
+}
+.d6 .d7
+{
+    height: 16em;
+    box-shadow: 2px 2px 5px rgb(210, 210, 210);
+}
+.d8 .dvv-8
+{
+   height: 17em;
+   box-shadow: 2px 2px 5px rgb(210, 210, 210);
+    margin-bottom: 9em;
+  
+}
+.d9 
+{
+    height: 17em;
+    box-shadow: 2px 2px 5px rgb(210, 210, 210);
+}
+.d10 
+{
+    height: 17em;
+    box-shadow: 2px 2px 5px rgb(210, 210, 210);
+}
+.d1 .dvv-1 .bt1
+{
+    height: 5em;
+}
+.d4 .bt3
+{
+    text-align: center;
+    height: 10em;
+}
+.d4 .bt4
+{
+    text-align: center;
+    height: 10em;
+}
+.d1 .bt1
+{
+    text-align: center;
+    height: 16em;
+}
+.d1 .bt2
+{
+    text-align: center;
+    height: 10em;
+}
+.d6 .bt6
+{
+    text-align: center;
+    height: 5em;
+}
+.d6 .bt7
+{
+    text-align: center;
+    height: 10em;
+}
+.d8 .bt8
+{
+    text-align: center;
+    height: 8em;
+}
+.d8 .bt5
+{
+    text-align: center;
+    height: 0.1em;
+}
+.d9 .bt9
+{
+    text-align: center;
+    height: 0.1em;
+}
+.d10 .bt10
+{
+    text-align: center;
+    height: 0.1em;
+}
+
+.d4 .fig-div-4
+{
+    height: 13em;
+    width: auto;
+    background-image: url(../Photos/Amul-ghee-b.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0.5em;
+    background-color: #f9c74f;
+
+}
+.d8 .fig-div-5
+{
+    height: 10em;
+    width: 15em;
+    background-image: url(../Photos/amul-malai-fresh-paneer.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 0.5em;
+    background-color: #f9c74f;
+}
+.d8 .d5 
+{
+    height: 13.5em;
+    
+    box-shadow: 2px 2px 5px rgb(210, 210, 210);
+}
+.d6 .fig-div-6
+{
+    height: 13em;
+    width: auto;
+    background-image: url(../Photos/amul-masti-dahi-400-g-pouch.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0.5em;
+    background-color: #f9c74f;
+}
+.d6 .fig-div-7
+{
+    height: 13em;
+    width: auto;
+    background-image: url(../Photos/amul_masti_dahi-big.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0.5em;
+    background-color: #f9c74f;
+}
+.d8 .fig-div-8
+{
+    height: 13em;
+    width: auto;
+    background-image: url(../Photos/Amul-Premium\ Dahi\,\ 400g-Front.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0.5em;
+    background-color: #f9c74f;
+}
+.d9 .fig-div-9
+{
+    height: 13em;
+    width: auto;
+    background-image: url(../Photos/Amul-Kool-Cafe-200ml.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 0.5em;
+    background-color: #f9c74f;
+}
+.d10 .fig-div-10
+{
+    height: 13em;
+    width: auto;
+    background-image: url(../Photos/amul-kool-cafe-milk-coffee.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 0.5em;
+      background-color: #f9c74f;
+}
+
+
+.sec2-main-div1
+{
+    display: flex;
+    gap: 2em;
+    margin-left: 3em;
+    height: 50%;
+    justify-content: center;
+}
+.sec2-main-div2
+{
+    display: flex;
+    gap: 2em;
+    margin-left: 1em;
+    height: 38%;
+    justify-content: center;
+    
+}
+.sec2-main-div1 .s2-fig1
+{
+    background-image: url(../Photos/5-START-20G.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #f9c74f;
+    height: 20%;
+    width: auto;
+}
+.sec2-main-div1 .s2-fig2
+{
+    background-image: url(../Photos/Chocominis-big.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #f9c74f;
+    height: 20%;
+    width: auto;
+}
+.sec2-main-div1 .s2-fig3
+{
+    background-image: url(../Photos/dairy-milk-200g.webp);
+    background-size: cover;
+    background-position: center;
+    background-color: #f9c74f;
+    height: 34%;
+    width: auto;
+}
+.sec2-main-div1 .s2-fig4
+{
+    background-image: url(../Photos/Dairy-milk-silk-oreo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #f9c74f;
+    height: 38%;
+    width: auto;
+}
+.sec2-main-div2 .s2-fig5
+{
+    background-image: url(../Photos/Dairy-milk-silk-redvalvet.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #f9c74f;
+    height: 50%;
+    width: auto;
+}
+.sec2-main-div2 .s2-fig6
+{
+    background-image: url(../Photos/Kit-kat-s.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #f9c74f;
+    height: 20%;
+    width: auto;
+}
+.sec2-main-div2 .s2-fig7
+{
+    background-image: url(../Photos/Kit-kat-big.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #f9c74f;
+    height: 30%;
+    width: auto;
+}
+.sd1{
+    height: 40%;
+    width: auto;
+    box-shadow: 2px 2px 5px rgb(210, 210, 210);
+}
+.sd2{
+    height: 70%;
+    width: auto;
+    box-shadow: 2px 2px 5px rgb(210, 210, 210);
+}
+.sd3{
+    height: 60%;
+    width: auto;
+    box-shadow: 2px 2px 5px rgb(210, 210, 210);
+}
+.sd4{
+    height: 60%;
+    width: auto;
+    box-shadow: 2px 2px 5px rgb(210, 210, 210);
+}
+.sd5{
+    height: 100%;
+    width: auto;
+    box-shadow: 2px 2px 5px rgb(210, 210, 210);
+}
+.sd6{
+    height: 100%;
+    width: auto;
+    box-shadow: 2px 2px 5px rgb(210, 210, 210);
+}
+.sd7{
+    height: 100%;
+    width: auto;
+    box-shadow: 2px 2px 5px rgb(210, 210, 210);
+}
+.bt
+{
+    height: 30%;
+}
+
+.sec3-main-div3
+{
+    display: flex;
+    gap: 2em;
+    margin-left: 1em;
+    height: 38%;
+    justify-content: center;
+}
+.sec3-main-div3 .s2-fig8
+{
+    background-image: url(../Photos/britannia-good-day-cashew-cookies-75g-.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #f9c74f;
+    height: 30%;
+    width: auto;
+}
+.sec3-main-div3 .s2-fig9
+{
+    background-image: url(../Photos/Hide&seek-black-bourbon.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #f9c74f;
+    height: 30%;
+    width: auto;
+}
+.sec3-main-div3 .s2-fig10
+{
+    background-image: url(../Photos/parle-hide-seek-choco-rolls-250-g-product-images.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #f9c74f;
+    height: 30%;
+    width: auto;
+    /* background-color: #f9c74f; */
+}
+
+.sec-1-main-div .dvv-1:hover, .on
+{
+    transform: scale(1.05);
+}
+.sec-1-main-div .d2:hover, .on
+{
+    transform: scale(1.05);
+}
+.sec-1-main-div .dvv-4:hover, .on
+{
+    transform: scale(1.05);
+}
+.sec-1-main-div .div0-3:hover, .on
+{
+    transform: scale(1.05);
+}
+.sec-1-main-div .dvv-6:hover, .on
+{
+    transform: scale(1.05);
+}
+.sec-1-main-div .d7:hover, .on
+{
+    transform: scale(1.05);
+}
+.sec-1-main-div .dvv-8:hover, .on
+{
+    transform: scale(1.05);
+}
+.sec-1-main-div .d5:hover, .on
+{
+    transform: scale(1.05);
+}
+.sec-1-main-div .d9:hover, .on
+{
+    transform: scale(1.05);
+}
+.sec-1-main-div .d10:hover, .on
+{
+    transform: scale(1.05);
+}
+.sec2-main-div1 .sd1:hover, .on
+{
+    transform: scale(1.05);
+}
+.sec2-main-div1 .sd2:hover, .on
+{
+    transform: scale(1.05);
+}
+.sec2-main-div1 .sd3:hover, .on
+{
+    transform: scale(1.05);
+}
+.sec2-main-div1 .sd4:hover, .on
+{
+    transform: scale(1.05);
+}
+.sec2-main-div2 .sd5:hover, .on
+{
+    transform: scale(1.05);
+}
+.sec2-main-div2 .sd6:hover, .on
+{
+    transform: scale(1.05);
+}
+.sec2-main-div2 .sd7:hover, .on
+{
+    transform: scale(1.05);
+}
+.sec3-main-div3 .sd8:hover, .on
+{
+    transform: scale(1.05);
+}
+.sec3-main-div3 .sd9:hover, .on
+{
+    transform: scale(1.05);
+}
+.sec3-main-div3 .sd10:hover, .on
+{
+    transform: scale(1.05);
+}
+
+footer
+{
+    font-family: 'Roboto Slab', serif;
+    font-size:5em;
+    text-align: center;
+    justify-content: center;
+}

@@ -1,0 +1,214 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper
+{
+    width: 100%;
+    background-color: #faa307;
+}
+.img-banner
+{
+    display: none;
+}
+.info
+{
+    width: 100%;
+}
+.ch
+{
+    width: 100%;
+    background-color: #ffbe0b;
+}
+.ch-info
+{
+    width: 100%;
+}
+
+.info h1
+{
+    padding: 30px 30px 20px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    color: #111;
+    line-height: 44px;
+}
+.info p
+{
+    padding: 0px 30px 20px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: #111;
+    line-height: 24px;
+}
+.ch-info h1
+{
+    padding: 55px 50px 80px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    color: #111;
+    line-height: 44px;
+}
+.ch-info p
+{
+    padding: 55px 50px 30px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: #111;
+    line-height: 24px;
+}
+
+@media only screen and (min-width: 768px)
+{
+    .main-nav
+{
+    background-color: #d00000;
+    height: 69px;
+    width: 1000px;
+   
+}
+.img-banner
+{
+    display: block;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.ch
+{
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 1em;
+    
+}
+.wrapper
+{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 1em;
+}
+.info h1
+{
+    padding: 20px 0px 0px;
+    font-family: 'Roboto Slab', serif;
+}
+.ch-info h1
+{
+    padding: 20px 85px 20px;
+    
+}
+.info p
+{
+    padding: 20px 0px 0px;
+    font-size: 25px;
+    
+}
+.ch-info p
+{
+    padding: 15px 7px 0px;
+    font-size: 25px;
+   
+    
+}
+
+.ft
+{
+    padding: 100px 70px 40px 90px;
+}
+}
+
+@media only screen and (min-width: 1464px)
+{
+    .main-nav
+    {
+        
+        height: 69px;
+        width: 1464px;
+       
+    }
+
+    .ch
+{
+    height: 69px;
+        width: 1464px;
+    margin: 0 auto;
+    padding-top: 1em;
+    
+}
+    .wrapper
+{
+    width: 1450px;
+    height: 200px;
+    
+}
+.info
+{
+    width: 1400px;
+    float: left;
+}
+.balaji
+{
+    padding-top: 60px;
+    width: 50px;
+    
+}
+.info h1
+{
+    padding: 20px 0px 0px 30px;
+    font-family: 'Roboto Slab', serif;
+}
+.info p
+{
+    padding: 20px 0px 0px 30px;
+    
+}
+.footer
+{
+    padding: 30px 0px 0px 30px;
+    font-size: 2em;
+    align-items: center;
+}
+}
+html,body, main, header, article{
+    
+    scroll-behavior: smooth;
+}
+
+
+
+.main-nav
+{
+    background-color: #d00000;
+    height: 50%;
+    text-align: center;
+    justify-content: center;
+}
+.main-nav .div1
+{
+   display: inline-flex;
+   background-color: #f48c06;
+   gap: 3em;
+   height: 100%;
+      
+}
+.main-nav .div1 a
+{
+    font-size:4em;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    
+
+}
+
+
+footer
+{
+    font-family: 'Roboto Slab', serif;
+    font-size:5em;
+    text-align: center;
+    justify-content: center;
+}
